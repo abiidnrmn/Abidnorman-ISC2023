@@ -1,0 +1,13 @@
+package day.pkg1.abiid;
+
+
+public class Day1Abiid {
+
+    
+    public static void main(String[] args) {
+//    first day = "belajar output"    
+        System.out.println("hello word");
+        System.out.println("modal nekat");
+    }
+    
+}
