@@ -1,0 +1,30 @@
+package day2.abiid;
+
+
+public class Day2Abiid {
+
+   
+    public static void main(String[] args) {
+        String nama = "abid norman";
+        char GD = '-';
+        short tanggallahir = 16;
+        int tahunlahir = 2004;
+        byte umur = 19;
+        double bb = 55.5;
+        long tnggibdn = 170;
+        float nohp = 083156933882f;
+        boolean pria = true;
+        System.out.println("Nama:"+nama);
+        System.out.println("Golongan darah"+GD);
+        System.out.println("Tanggal lahir"+tanggallahir);
+        System.out.println("Tahun lahir"+tahunlahir);
+        System.out.println("Umur"+umur);
+        System.out.println("Berat badan"+bb);
+        System.out.println("Tinggi badan"+tnggibdn);
+        System.out.println("No handphone"+nohp);
+        System.out.println("jenis kelamin pria"+pria);
+  
+ 
+    }
+    
+}
