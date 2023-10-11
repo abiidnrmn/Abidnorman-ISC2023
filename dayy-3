@@ -1,0 +1,28 @@
+package dayy.pkg3;
+
+public class Dayy3 {
+
+    public static void main(String[] args) {
+        String Nama ="Abid Norman";
+        Integer Umur = 19;
+        Character Inisial ='A';
+        Byte BeratBadan = 55;
+        Short NoHP = 0;
+        float TinggiBadan = 170;
+        long  Penghasilan = 1000000;
+        double gaji = 500000;
+        Boolean PunyaPacar = false;
+        
+        System.out.println("Nama saya                : " + Nama);
+        System.out.println("Umur saya                : " + Umur);
+        System.out.println("Berinisialn              : " + Inisial);
+        System.out.println("Berat Badan  saya        : " + BeratBadan);
+        System.out.println("No HP Saya               : " + NoHP);
+        System.out.println("Tinggi saya              : " + TinggiBadan);
+        System.out.println("Penghasilan saya         : " + Penghasilan);
+        System.out.println("Gaji  saya               : " + gaji);
+        System.out.println("Saya Belum Punyua pacar  : " + PunyaPacar);
+                
+    }
+    
+}
