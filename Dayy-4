@@ -1,0 +1,30 @@
+package com.mycompany.day4.abid;
+
+public class Day4Abid {
+
+    public static void main(String[] args) {
+              //  deklarasi variable
+      String nama;
+      char inisial;
+      int umur;
+      float tb;
+      double bb;
+      boolean pintar;
+      
+       //   pemberian nilai ke variable      
+       nama ="ABID NORMAN";
+       inisial = 'A';
+       umur = 19;
+       tb = 170.0f;
+       bb = 55;
+       pintar = true;
+       
+       
+        System.out.println("NAMA ANDA:"+ nama);
+        System.out.println("INISIAL NAMA ANDA:"+ inisial);
+        System.out.println("UMUR ANDA:"+ umur);
+        System.out.println("TINGGI BADAN ANDA:"+ tb);
+        System.out.println("BERAT BADAN ANDA:"+bb);
+        System.out.println("ANDA PINTAR:"+ pintar);
+    }
+}
