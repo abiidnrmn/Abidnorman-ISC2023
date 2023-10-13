@@ -1,0 +1,9 @@
+public class day5abid {
+    public static void main(String[] args) {
+        final double GRAVITASI_JUPITER =24.7 ; 
+        double ketinggian = 100; 
+        double kecepatan = Math.sqrt(2 * GRAVITASI_JUPITER * ketinggian);
+
+        System.out.println("Kecepatan jatuh bebas dari ketinggian " + ketinggian + " meter adalah " + kecepatan + " m/s.");
+    }
+}
