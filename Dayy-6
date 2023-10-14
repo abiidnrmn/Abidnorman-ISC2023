@@ -1,0 +1,37 @@
+package day6.abid;
+
+import java.util.Scanner;
+
+public class Day6Abid {
+
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+               
+                
+       System.out.print("Masukan No Peserta: ");
+        int a = masuk.nextInt();
+        masuk.nextLine(); 
+
+        System.out.print("Masukan Nama: ");
+        String b = masuk.nextLine();
+
+        System.out.print("Masukan Jenis Kelamin (L/P): ");
+        String c = masuk.nextLine();
+
+        System.out.print("Masukan Umur: ");
+        int d = masuk.nextInt();
+
+        System.out.print("Masukan Berat Badan: ");
+        double e = masuk.nextDouble();
+
+        System.out.print("Tampan (true/false): ");
+        boolean f = masuk.nextBoolean();
+
+        System.out.println("No Peserta: " + a);
+        System.out.println("Nama: " + b);
+        System.out.println("Jenis Kelamin: " + c);
+        System.out.println("Umur: " + d);
+        System.out.println("Berat Badan: " + e);
+        System.out.println("Ketampanan: " + f);
+    }
+}
