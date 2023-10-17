@@ -1,0 +1,26 @@
+package day9.abid;
+
+import java.util.Scanner;
+
+public class Day9Abid {
+
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+                
+        System.out.println("PERSEGI");
+        float a =masuk.nextFloat();
+        double b = a*a;
+        System.out.println("jumlah :"+b);
+        System.out.println("LINGKARAN");
+        float c = masuk.nextFloat();
+        double d = 3.14*c*c;
+        System.out.println("jumlah:"+d);
+        System.out.println("SEGITIGA");
+        float e =masuk.nextFloat();
+        double f =0.5*e*e;
+        System.out.println("jumlah:"+f);
+                
+                
+    }
+    
+}
