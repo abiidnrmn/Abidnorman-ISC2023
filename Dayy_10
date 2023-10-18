@@ -1,0 +1,23 @@
+package Dayy10;
+public class Main {
+    
+    public static void main(String[] args) {
+        // operator penugasan
+        int a = 5;
+        a+= 8;
+        int b = 10;
+        b-= 5;
+        int c= 5;
+        c*= 5;
+        int d= 30;
+        d/= 6;
+        int e= 37;
+        e%= 5;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+    }
+    
+}
