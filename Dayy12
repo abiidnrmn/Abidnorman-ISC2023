@@ -1,0 +1,23 @@
+package Dayy12;
+public class Main {
+    
+    public static void main(String[] args) {
+        // operator logika
+        //NOT (!)
+        boolean lunas = false;
+        boolean hasil = !lunas;
+        System.out.println(hasil);
+        //AND (&&)
+        boolean a = true;
+        boolean b = false;
+        boolean c = a && b;
+        System.out.println(c);
+        //OR (||)
+        boolean e = true;
+        boolean f = false;
+        boolean g = e||f;
+        System.out.println(g);
+        
+     }
+        
+    }
