@@ -1,0 +1,22 @@
+package dayy15;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        int a= 1;
+        switch(a){
+            case 1:
+                 System.out.println("merah");
+                 break;
+            case 2:
+                 System.out.println("putih");
+                 break;
+            default:
+                 System.out.println("coba lagi");
+        }
+        
+        
+        
+    }
+}
