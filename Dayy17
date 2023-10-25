@@ -1,0 +1,13 @@
+package main;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println("apakah 4 <10");
+        int a= 4;
+        int b= 10;
+        String hasil = a < b ?"benar":"salah";
+        System.out.print(hasil);
+    }
+    
+}
