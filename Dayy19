@@ -1,0 +1,35 @@
+package main;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int panjang,lebar,luas,hargapermeter,hargajual;
+        System.out.print("masukan panjang tanah : ");
+        panjang = input.nextInt();
+        
+        System.out.print("masukan lebar tanah : ");
+        lebar = input.nextInt();
+        
+        luas = panjang*lebar;
+        System.out.println("luas tanah :" + luas);
+        
+        hargapermeter = 300000;
+        
+        hargajual = luas*hargapermeter;
+        System.out.println("harga jual : "+ hargajual);
+        
+        if(hargajual <  50000000){
+            System.out.println("penjualan anda dikenakan pajak 1%");
+            System.out.println("jadi hasil bersih dari penjualan\n tanah" + (hargajual - (hargajual*0.01)));
+            
+        }else if(hargajual >=50000000 && hargajual <100000000){
+            System.out.println("penjualan anda di kenakan pajak 3%");
+            System.out.println("jadi hasil bersih dari penjualan\n tanah" + (hargajual - (hargajual*0.03)));
+            
+        }else if(hargajual >= 100000000);
+            System.out.println("penjualan anda dikenakan pajak 5%");
+            System.out.println("jadi hasil bersih dari penjualan\n tanah" + (hargajual - ( hargajual*0.05)));
+        
+          }
+    }
