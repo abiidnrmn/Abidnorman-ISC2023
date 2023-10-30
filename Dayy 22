@@ -1,0 +1,25 @@
+package main;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("MASUKAN ANGKA INPUTAN: ");
+        float a = input.nextFloat();
+        System.out.print("MASUKAN ANGKA INPUTAN:");
+        float b = input.nextFloat();
+        System.out.print("MASUKAN ANGKA INPUTAN:");
+        float c = input.nextFloat();
+
+        if (a != 2.2) {
+            System.out.println("true");
+        } else if (b != 2.0) {
+            System.out.println("false");
+        } else if (c != 3.6) {
+            System.out.println("ture");
+       
+        }
+    }
+
+}
