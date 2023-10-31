@@ -1,0 +1,41 @@
+package day24;
+import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        Scanner pesan = new Scanner(System.in);
+        String menu = null;
+        int pilihan, harga= 0, porsi=0;
+        System.out.println("==== Menu bakso ====");
+        System.out.println("1.bakso lava \n2. bakso beranak\n3. bakso urat");
+        System.out.println("4. bakso granat\n5. bakso mie\n6. bakso pangsit");
+        System.out.print("\nPesanan \t: ");        
+        pilihan = pesan.nextInt();
+        
+        if(pilihan == 1){
+            menu = "bakso lava"; 
+            harga = 16000;
+       }else if(pilihan == 2){
+            menu = "bakso beranak";
+            harga = 14000;
+       }else if(pilihan == 3){
+            menu = "bakso urat";
+            harga = 18000;
+       }else if(pilihan == 4){
+            menu = "bakso granat";     
+       }else if(pilihan == 5){
+            menu = "bakso mie";
+            harga = 20000;
+       }else if(pilihan == 6){
+            menu = "bakso pangsit";
+            harga = 24000;           
+       }
+        if(menu == null){
+            System.out.println("Orderan tak terbaca");
+        }else{
+        System.out.print("Jumlah porsi \t: ");
+        porsi = pesan.nextInt();
+        System.out.println("=============================");
+        System.out.println("Yang dipesan \t: ");
+        System.out.println(menu+ " /mangkok " + " Rp." + harga);
+        harga = harga * porsi;
+        System.out.println("Total harga Rp 
