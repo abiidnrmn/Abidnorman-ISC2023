@@ -1,0 +1,15 @@
+package abid;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+        System.out.print("akhir : ");
+        int akhir = input.nextInt();
+        for(int a = 3; a<= akhir; a+=3){
+            System.out.println(a); 
+        }
+    }
+}
+        
