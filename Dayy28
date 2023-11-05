@@ -1,0 +1,22 @@
+package abid;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+               Scanner input= new Scanner(System.in);
+        System.out.println("{Pemilihan presiden RI 2024}");
+        System.out.println("==Prabiwo subianto dan gibran==");
+        System.out.print("berapa % suara :");
+        int suara = 0;
+       suara = input.nextInt();
+        
+        if(suara >= 70){
+          System.out.print("terpilih");
+        }else if (suara >= 40){
+            System.out.print("kemungkinan kecil");
+          }else{
+             System.out.print("tidak ada harapan");
+                
+            
+       }      
+    }
+}
